@@ -1,0 +1,287 @@
+/* NAVBAR TRANSPARENT */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+}
+body {
+  overflow-x: hidden;
+}
+/* TEXT COLOR */
+.nav-link {
+  color: black !important;
+  transition: 0.3s;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+/* HOVER EFFECT */
+.nav-link:hover {
+  color: #c59d5f !important;
+  transform: translateY(-2px);
+}
+
+/* SPACING */
+.navbar-nav {
+  margin-left: 30px;
+}
+
+/* SEARCH ICON */
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+}
+
+.search-icon:hover {
+  color: #c59d5f;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.intro {
+  background: #f5f5f5;
+  padding: 60px 0;
+}
+
+.intro-text {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn-intro {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-intro:hover {
+  background: #c59d5f;
+  color: white;
+  border: none;
+}
+.coffee {
+  padding: 80px 0;
+}
+
+.coffee img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.small-text {
+  color: #c59d5f;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.coffee h2 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.coffee p {
+  color: #555;
+}
+
+.btn-learn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-learn:hover {
+  background: #c59d5f;
+  color: white;
+  border: none;
+.coffee {
+  padding: 80px 0;
+}
+
+.coffee img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.coffee .row {
+  align-items: center;
+}
+
+.coffee h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.coffee p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-learn {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.btn-learn:hover {
+  background: #c59d5f;
+  color: white;
+}
+	/* REWA SECTION */
+.rewa {
+  background: #f8f6f2;
+}
+.rewa-title {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;  /* ADD THIS */
+}
+
+.rewa-text {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+	font-family: 'Poppins' , sans-serif:
+}
+
+.rewa img {
+  border-radius: 10px;
+}
+.rewa {
+  text-align: left;
+}
+/* FIXED ANIMATION (STRONGER) */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  animation: fadeUp 1.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideLeft 1.5s ease forwards;
+}
+
+@keyframes slideLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* DELAYS */
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+.delay-3 { animation-delay: 0.9s; }
+	/* FEATURE SECTION */
+.feature {
+  background: #ffffff;
+}
+
+.feature-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.feature-text {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.feature img {
+  border-radius: 10px;
+}
+	.row.align-items-center .col-md-6.p-0 .img-fluid.w-100 {
+}
+.row.align-items-center .col-md-6.p-0 .img-fluid.w-100 {
+    height: 254px;
+    width: 314px;
+}
+.buy img {
+  height: 500px;
+  object-fit: cover;
+}
+	body {
+		background: red;
+		}
+		.row.align-items-center .col-md-6.p-0 .img-fluid.w-100 {
+}
+.row.align-items-center .col-md-5 .img-fluid {
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.footer h5 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #444;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.logo-text {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer hr {
+  border-color: #333;
+  margin: 40px 0;
+}
